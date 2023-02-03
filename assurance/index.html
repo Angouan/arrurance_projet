@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Insurance_Projet</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/JS/script.js">
+</head>
+<body>
+ <header>
+    <div class="navbar">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A propos de nous</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        <div class="btn"><a href="">SOUSCRIPTION EN LIGNE</a></div>
+    </div>
+    </header>
+    <section class="banner">
+        <div class="box">
+            <div class="text">BIENVEVUE À ZENITHE INSURANCE</div>
+        </div>
+        <div class="foot">
+        </div>
+    </section>
+    <script>
+        function equation(){
+            var a= "nomb1"
+            var b= "nomb2"
+            var c= "nomb3"
+           if(a!=0){
+            var delta = b*b - 4*a*c;
+             if(delta < 0){ alert("pas de solution dans l'ensemble R")};
+             if(delta > 0 ) {
+                x1 = ( -b+math.sqrt(delta)/2*a);
+                x2 = ( -b-math.sqrt(delta)/2*a);
+                alert("la première solution est :",x1);
+                alert("la seconde solution est :", x2);
+             }
+           } if(delta = 0){
+            x = (-b/2*a);
+             alert("il y a une seule solution qui est:", x);
+           }
+        }
+
+    </script>
+</body>
+</html>
